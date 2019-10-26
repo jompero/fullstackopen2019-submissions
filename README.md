@@ -5,9 +5,12 @@ My submissions to Fullstack web developing course 2019 at Open University of Hel
   
 ## Submissions
 ### part0
-4. [new note diagarm]()
-5. [single page app diagram]()
-6. [new note (spa) diagram]()
+1. [HTML Getting Started (Read)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+2. [CSS Basics (Read)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+3. [HTML Forms (Read)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form)
+4. [new note diagarm](https://github.com/jompero/fullstackopen2019-submissions/blob/master/part0/4%20new%20note.png)
+5. [single page app diagram](https://github.com/jompero/fullstackopen2019-submissions/blob/master/part0/5%20single%20page%20app.png)
+6. [new note (spa) diagram](https://github.com/jompero/fullstackopen2019-submissions/blob/master/part0/6%20new%20note%20spa.png)
 ### part1
 ### part2
 ### part3
