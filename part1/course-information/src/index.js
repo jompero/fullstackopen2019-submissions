@@ -7,25 +7,19 @@ function PartObject(name, exercises) {
 }
 
 const App = () => {
-  const course = 'Half Stack application development'
-  const part1 = 'Fundamentals of React'
-  const exercises1 = 10
-  const part2 = 'Using props to pass data'
-  const exercises2 = 7
-  const part3 = 'State of a component'
-  const exercises3 = 14
-
-  const parts = [
-        new PartObject(part1, exercises1),
-        new PartObject(part2, exercises2),
-        new PartObject(part3, exercises3)
-  ]
+  const course = {
+        name: 'Half Stack application development',
+        parts: [
+            new PartObject('Fundamentals of React', 10),
+            new PartObject('Using props to pass data', 7),
+            new PartObject('State of a component', 14)]
+        }
 
   return (
     <div>
-      <Header course={course}/>
-      <Content parts={parts}/>
-      <Total parts={parts} />
+      <Header course={course.name}/>
+      <Content parts={course.parts}/>
+      <Total parts={course.parts} />
     </div>
   )
 }
