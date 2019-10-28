@@ -12,6 +12,9 @@ My submissions to Fullstack web developing course 2019 at Open University of Hel
 5. [single page app diagram](https://github.com/jompero/fullstackopen2019-submissions/blob/master/part0/5%20single%20page%20app.png)
 6. [new note (spa) diagram](https://github.com/jompero/fullstackopen2019-submissions/blob/master/part0/6%20new%20note%20spa.png)
 ### part1
+1. [Course Information (1-5)](https://github.com/jompero/fullstackopen2019-submissions/tree/master/part1/course-information)
+2. [Unicafe (6-11)](https://github.com/jompero/fullstackopen2019-submissions/tree/master/part1/unicafe)
+3. [Anecdotes (12-14)](https://github.com/jompero/fullstackopen2019-submissions/tree/master/part1/anecdotes)
 ### part2
 ### part3
 ### part4
