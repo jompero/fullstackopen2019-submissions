@@ -7,10 +7,17 @@ const Filter = (props) => {
       setFilter(event.target.value)
       props.filterChangedHandler(event.target.value)
     }
+
+    const styles = {
+        container: {
+            marginTop: 15,
+            marginBottom: 15,
+        }
+    }
     
     return (
-        <div>
-            <input value={filter} onChange={handleTextChange} />
+        <div style={styles.container}>
+            Filter: <input value={filter} onChange={handleTextChange} />
         </div>
     )
 }

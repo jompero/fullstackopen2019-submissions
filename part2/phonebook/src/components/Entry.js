@@ -17,10 +17,28 @@ export const Entries = (props) => {
 }
 
 export const Entry = ({person, onDelete}) => {
-    return (
-      <div>
-        <p>{person.name} {person.number}</p><button onClick={() => onDelete(person)}>X</button>
-      </div>)
+  const styles = {
+    container: {
+      marginTop: 5,
+    },
+    entry: {
+      
+    },
+    button: {
+      backgroundColor: 'transparent',
+      border: 'none',
+      color: 'red',
+      paddingLeft: 10,
+      paddingRight: 10,
+      paddingTop: 5,
+      paddingBottom: 5,
+      marginRight: 5,
+    }
+  }
+  return (
+    <div style={styles.container}>
+      <div><button style={styles.button} onClick={() => onDelete(person)}>X</button>{person.name} {person.number}</div>
+    </div>)
 }
 
 export default Entry
