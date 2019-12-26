@@ -20,6 +20,8 @@ My submissions to Fullstack web developing course 2019 at Open University of Hel
 2. [Phonebook](https://github.com/jompero/fullstackopen2019-submissions/tree/master/part2/phonebook)
 3. [Find Countries](https://github.com/jompero/fullstackopen2019-submissions/tree/master/part2/findcountries)
 ### part3
+1. [Phonebook Frontend](https://github.com/jompero/fullstackopen2019-submissions/tree/master/part3/phonebook)
+2. [Phonebook Backend](https://github.com/jompero/phonebook-backend)
 ### part4
 ### part5
 ### part6
