@@ -15,21 +15,23 @@ const Snackbar = (props) => {
     const styles = {
         container: {
             backgroundColor: containerColor(),
-            marginTop: 10,
-            width: 400,
+            margin: 10,
+            padding: 10,
+            width: 420,
             verticalAlign: 'center',
         },
         label: {
             color: 'white',
-            lineHeight: 3,
-            paddingLeft: 10,
+            lineHeight: 1.25,
+            margin: 2,
+            padding: 5,
         }
     }
 
     console.log("message", label, type);
     return (
         <div style={styles.container}>
-            <label style={styles.label}>{label}</label>
+            <div style={styles.label}>{label}</div>
         </div>
     );
 }

@@ -37,17 +37,22 @@ const App = () => {
           .then(setPersons(persons.map(person => person.id !== updatedPerson.id ? person : updatedPerson)))
           .catch(error => {
             console.log("error updating person", error);
-            displayMessage(`Person ${foundPerson.name} already removed.`, 'danger');
+            displayMessage(error.response.data.message, 'danger');
             setPersons(persons.filter(person => person.id !== updatedPerson.id));
           });
       }
     
     } else {
-      Persons.addPerson(newPerson).then(data => {
-        console.log("person added", data);
-        displayMessage(`Person ${newPerson.name} added.`, 'success');
-        setPersons(persons.concat(data));
-      });
+      Persons.addPerson(newPerson)
+        .then(data => {
+          console.log("person added", data);
+          displayMessage(`Person ${newPerson.name} added.`, 'success');
+          setPersons(persons.concat(data));
+        })
+        .catch(error => {
+          console.log("error adding person", error);
+          displayMessage(error.response.data.message, 'danger');
+        });
     }
   }
 
