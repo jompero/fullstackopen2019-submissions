@@ -28,5 +28,6 @@ My submissions to Fullstack web developing course 2019 at Open University of Hel
 1. [Bloglist frontend](https://github.com/jompero/blog-list-frontend)
 2. [Custom hooks](https://github.com/jompero/custom-hooks)
 ### part6
+1. [Unicafe redux](https://github.com/jompero/unicafe-redux)
 ### part7
 ### part8
