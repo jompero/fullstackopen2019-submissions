@@ -31,4 +31,6 @@ My submissions to Fullstack web developing course 2019 at Open University of Hel
 1. [Unicafe redux](https://github.com/jompero/unicafe-redux)
 2. [Redux Anecdotes](https://github.com/jompero/redux-anecdotes)
 ### part7
+1. [React router](https://github.com/jompero/routed-anecdotes)
+2. [Improved bloglist](https://github.com/jompero/bloglist-improved)
 ### part8
