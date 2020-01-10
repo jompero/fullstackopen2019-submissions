@@ -34,3 +34,5 @@ My submissions to Fullstack web developing course 2019 at Open University of Hel
 1. [React router](https://github.com/jompero/routed-anecdotes)
 2. [Improved bloglist](https://github.com/jompero/bloglist-improved)
 ### part8
+1. [Library backend](https://github.com/jompero/library-backend)
+2. [Library frontend](https://github.com/jompero/library-frontend)
